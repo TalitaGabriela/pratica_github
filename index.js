@@ -9,7 +9,7 @@ function exibirMensagem() {
     const welcomeMessage = document.getElementById('welcome-message');
     welcomeMessage.innerHTML = `Bem-vindo, ${userName}!`;
 
-    const imagens = ["img1.png", "img2.png", "img3.png"];
+    const imagens = ["img/img1.png", "img/img2.png", "img/img3.png"];
     const randomImage = imagens[Math.floor(Math.random() * imagens.length)];
 
     const stitchImageDiv = document.getElementById('stitch-image');
